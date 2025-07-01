@@ -22,7 +22,7 @@ const About = () => {
             skills with a growth mindset to build efficient, user-focused
             solutions.
           </p>
-          <a download="" href={CV} className="button button-flex">
+          <a download="Piyush_Kumar_Resume" href={CV} className="button button-flex">
             Download Resume
             <svg
               className="button_icon"
