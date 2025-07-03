@@ -30,7 +30,7 @@ const Backend = () => {
                       className="skills_progress"
                       style={{ width: `${skill.level}%` }}
                     ></div>
-                    <span className="skills_level">{skill.level}%</span>
+{/*                     <span className="skills_level">{skill.level}%</span> */}
                   </div>
                 </div>
               </div>
