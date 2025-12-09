@@ -5,11 +5,15 @@ const skills = [
     { name: "Node.js", level: "82" },
     { name: "Express.js", level: "80" },
     { name: "MongoDB", level: "78" },
+    { name: "OAuth", level: "70" },
+    { name: "JWT", level: "70" },
   ],
   [
     { name: "MySQL", level: "72" },
     { name: "REST APIs", level: "85" },
+    { name: "Postman", level: "80" },
     { name: "Docker", level: "70" },
+    { name: "Kubernetes", level: "60" },
   ],
 ];
 

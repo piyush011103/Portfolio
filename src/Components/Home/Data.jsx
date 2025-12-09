@@ -57,7 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home_subtitle">Full Stack Developer</h3>
       <p className="home_description">
-        Full-Stack Developer with MERN stack experience, skilled in backend, API
+        Full-Stack Developer with MERN stack experience, skilled in Front-end, Back-end, API
         integration, and UI design using Figma. Builds secure, responsive apps
         with clean, maintainable code.
       </p>

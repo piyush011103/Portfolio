@@ -2,20 +2,24 @@ import React from "react";
 import "./Qualification.css";
 
 const tabs = [
-  
   {
     label: "Experience",
     icon: "uil uil-briefcase-alt qualification_icon",
     data: [
       {
+        title: "Junior Engineer Intern",
+        subtitle: "Novas Arc Consulting Private Limited",
+        calendar: " Aug 2025 - Present",
+      },
+      {
         title: "Intern",
         subtitle: "Daemonhive Technologies",
-        calendar: "(April)2025 - Present",
+        calendar: " Apr 2025 - Sep 2025",
       },
       {
         title: "MERN Stack Trainee",
         subtitle: "GeeksforGeeks - Noida",
-        calendar: "(July)2024 - (Oct)2024",
+        calendar: " Jul 2024 - Oct 2024",
       },
     ],
   },
@@ -26,17 +30,17 @@ const tabs = [
       {
         title: "B. Tech - CSE",
         subtitle: "Dr. APJ Abdul Kalam Technical University",
-        calendar: "(Sept)2021 - (May)2025",
+        calendar: " Sep 2021 - May 2025",
       },
       {
         title: "12th - Science",
         subtitle: "Gandhi Nagar Public School",
-        calendar: "2020 - 2021",
+        calendar: " 2020 - 2021",
       },
       {
         title: "10th",
         subtitle: "Gandhi Nagar Public School",
-        calendar: "2018 - 2019",
+        calendar: " 2018 - 2019",
       },
     ],
   },
