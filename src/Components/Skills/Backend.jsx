@@ -20,7 +20,7 @@ const skills = [
 const Backend = () => {
   return (
     <div className="skills_content">
-      <h3 className="skills_title">Backend Technologies/Tools</h3>
+      <h3 className="skills_title">Backend Technologies</h3>
       <div className="skills_box">
         {skills.map((group, groupIdx) => (
           <div className="skills_group" key={groupIdx}>

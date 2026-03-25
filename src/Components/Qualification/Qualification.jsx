@@ -7,19 +7,24 @@ const tabs = [
     icon: "uil uil-briefcase-alt qualification_icon",
     data: [
       {
+        title: "Freelancer",
+        subtitle: "Self Employed",
+        calendar: " Nov 2025-Present",
+      },
+      {
         title: "Junior Engineer Intern",
         subtitle: "Novas Arc Consulting Private Limited",
-        calendar: " Aug 2025 - Present",
+        calendar: " Aug 2025-Nov 2025",
       },
       {
         title: "Intern",
         subtitle: "Daemonhive Technologies",
-        calendar: " Apr 2025 - Sep 2025",
+        calendar: " Apr 2025-Sep 2025",
       },
       {
         title: "MERN Stack Trainee",
         subtitle: "GeeksforGeeks - Noida",
-        calendar: " Jul 2024 - Oct 2024",
+        calendar: " Jul 2024-Oct 2024",
       },
     ],
   },
@@ -30,17 +35,17 @@ const tabs = [
       {
         title: "B. Tech - CSE",
         subtitle: "Dr. APJ Abdul Kalam Technical University",
-        calendar: " Sep 2021 - May 2025",
+        calendar: " Sep 2021-May 2025",
       },
       {
         title: "12th - Science",
         subtitle: "Gandhi Nagar Public School",
-        calendar: " 2020 - 2021",
+        calendar: " 2020-2021",
       },
       {
         title: "10th",
         subtitle: "Gandhi Nagar Public School",
-        calendar: " 2018 - 2019",
+        calendar: " 2018-2019",
       },
     ],
   },
