@@ -4,12 +4,12 @@ import "./Services.css";
 const servicesData = [
   {
     icon: "uil uil-brackets-curly services_icon",
-    title: "Full Stack Developer",
-    modalTitle: "Full Stack Developer",
+    title: "Full Stack Development",
+    modalTitle: "Full Stack Development",
     description:
-      "I build complete web applications from frontend to backend using the MERN stack. I focus on clean architecture, real-world functionality, and performance.",
+      "I build complete web applications from frontend to backend. I focus on clean architecture, real-world functionality, and performance.",
     services: [
-      "Build full-stack applications using MongoDB, Express, React, and Node.js.",
+      "Build full-stack applications.",
       "Design and develop REST APIs for scalable systems.",
       "Implement authentication and secure backend logic.",
       "Handle data flow between frontend and backend efficiently.",
@@ -18,13 +18,13 @@ const servicesData = [
   },
   {
     icon: "uil uil-window services_icon",
-    title: "Frontend Developer",
-    modalTitle: "Frontend Developer",
+    title: "Frontend Development",
+    modalTitle: "Frontend Development",
     description:
       "I create responsive and user-friendly interfaces with a focus on usability and performance. I turn designs into functional and interactive applications.",
     services: [
-      "Develop responsive UI using HTML, CSS, and JavaScript.",
-      "Build dynamic interfaces using React.js.",
+      "Develop responsive UI.",
+      "Build dynamic interfaces using React.js, Angular, and other modern frameworks.",
       "Manage state and data flow in frontend applications.",
       "Integrate APIs and handle real-time UI updates.",
       "Optimize UI for performance and smooth user experience.",
@@ -32,13 +32,13 @@ const servicesData = [
   },
   {
     icon: "uil uil-server-network services_icon",
-    title: "Backend Developer",
-    modalTitle: "Backend Developer",
+    title: "Backend & API Development",
+    modalTitle: "Backend & API Development",
     description:
       "I develop backend systems that handle data, logic, and security efficiently. I focus on building reliable APIs and scalable server-side applications.",
     services: [
-      "Build RESTful APIs using Node.js and Express.js.",
-      "Design and manage MongoDB databases.",
+      "Build RESTful APIs.",
+      "Design and manage databases.",
       "Implement authentication and authorization systems.",
       "Handle server-side logic and data processing.",
       "Optimize backend performance and error handling.",
@@ -46,12 +46,12 @@ const servicesData = [
   },
   {
     icon: "uil uil-desktop services_icon",
-    title: "Desktop App Developer",
-    modalTitle: "Desktop App Developer",
+    title: "Application Development",
+    modalTitle: "Application Development",
     description:
-      "I build desktop applications using Electron with seamless data flow and real-world usability, focusing on productivity tools and form-based systems.",
+      "I build desktop applications with seamless data flow and real-world usability, focusing on productivity tools and form-based systems.",
     services: [
-      "Develop desktop apps using Electron.js.",
+      "Develop desktop apps.",
       "Implement IPC communication between processes.",
       "Manage local data storage and synchronization.",
       "Build form-based workflows with automation.",
