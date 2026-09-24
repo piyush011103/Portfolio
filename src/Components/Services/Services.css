@@ -87,73 +87,77 @@
   font-weight: var(--font-medium);
 }
 
-.services_modal-description{
-    font-size: var(--small-font-size);
-    padding: 0 3.5rem;
-    margin-bottom: var(--mb-2);
+.services_modal-description {
+  font-size: var(--small-font-size);
+  padding: 0 3.5rem;
+  margin-bottom: var(--mb-2);
 }
 
-.services_modal-service{
-    display: flex;
-    align-items: center;
-    column-gap: 0.5rem;
+.services_modal-service {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
 }
 
-.services_modal-icon{
-    columns: var(--title-color);
-    font-size: 1.1rem;
+.services_modal-icon {
+  columns: var(--title-color);
+  font-size: 1.1rem;
 }
 
-.serrvices_modal-info{
-    font-size: var(--small-font-size);
+.serrvices_modal-info {
+  font-size: var(--small-font-size);
 }
 
 /*Activer Modal*/
-.active-modal{
-    opacity: 1;
-    visibility: visible;
+.active-modal {
+  opacity: 1;
+  visibility: visible;
 }
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-  .services_container{
+  .services_container {
     grid-template-columns: repeat(3, 218px);
   }
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-    .services_container {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .services_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .services_content{
-        padding: 3.5rem 0.5rem 1.25rem 1.5rem;
-    }
+  .services_content {
+    padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+  }
 
-    .services_icon{
-      font-size: 1.5rem;
-    }
+  .services_icon {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
-  .services_modal-content{
+  .services_modal-content {
     padding: 4.5rem 1.5rem 2.5rem;
   }
-  
-  .services_container{
+
+  .services_modal-description {
+    padding: 0 1.5rem;
+  }
+
+  .services_container {
     padding: 0;
   }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  .services_container{
+  .services_container {
     grid-template-columns: max-content;
   }
 
-  .services_content{
+  .services_content {
     padding-right: 6rem;
   }
 }

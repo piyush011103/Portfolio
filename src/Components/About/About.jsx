@@ -15,14 +15,20 @@ const About = () => {
         <div className="about_data">
           <Info />
           <p className="about_description">
-            I'm Piyush Kumar, a Full-Stack Developer with MERN stack expertise
-            and a strong focus on problem-solving, teamwork, and clean code. In
-            my final year of college, I led a project team, handling planning,
-            coordination, and development. I combine backend, API, and UI design
-            skills with a growth mindset to build efficient, user-focused
-            solutions.
+            I'm Piyush Kumar, a Full-Stack Software Engineer with experience
+            building scalable web applications and delivering end-to-end
+            solutions. I have worked across both startup and enterprise
+            environments, taking ownership of development, problem-solving,
+            collaboration, and project delivery. I have also led a 6-member
+            team, coordinating development efforts and ensuring effective
+            execution while maintaining a strong focus on clean, reliable, and
+            user-focused solutions.
           </p>
-          <a download="" href={CV} className="button button-flex">
+          <a
+            download="Piyush_Kumar_Resume"
+            href={CV}
+            className="button button-flex"
+          >
             Download Resume
             <svg
               className="button_icon"

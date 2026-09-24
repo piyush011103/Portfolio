@@ -2,14 +2,14 @@ import React from 'react'
 
 const skills = [
   [
+    { name: ".NET Framework", level: "72" },
+    { name: "REST APIs", level: "85" },
+    { name: "SQL Server", level: "70" },
+  ],
+  [
     { name: "Node.js", level: "82" },
     { name: "Express.js", level: "80" },
     { name: "MongoDB", level: "78" },
-  ],
-  [
-    { name: "MySQL", level: "72" },
-    { name: "REST APIs", level: "85" },
-    { name: "Docker", level: "70" },
   ],
 ];
 
@@ -30,7 +30,7 @@ const Backend = () => {
                       className="skills_progress"
                       style={{ width: `${skill.level}%` }}
                     ></div>
-                    <span className="skills_level">{skill.level}%</span>
+                    {/* <span className="skills_level">{skill.level}%</span> */}
                   </div>
                 </div>
               </div>

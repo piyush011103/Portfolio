@@ -2,9 +2,9 @@ import React from "react";
 
 const skills = [
   [
-    { name: "HTML", level: "95" },
-    { name: "CSS", level: "90" },
-    { name: "JavaScript", level: "80" },
+    { name: "Angular", level: "95" },
+    { name: "Shadcn", level: "90" },
+    { name: "TypeScript", level: "80" },
   ],
   [
     { name: "React", level: "80" },
@@ -30,7 +30,7 @@ const Frontend = () => {
                       className="skills_progress"
                       style={{ width: `${skill.level}%` }}
                     ></div>
-                    <span className="skills_level">{skill.level}%</span>
+                    {/* <span className="skills_level">{skill.level}%</span> */}
                   </div>
                 </div>
               </div>

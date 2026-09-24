@@ -2,19 +2,28 @@ import React from "react";
 import "./Qualification.css";
 
 const tabs = [
-  
   {
     label: "Experience",
     icon: "uil uil-briefcase-alt qualification_icon",
     data: [
       {
+        title: "Software Engineer",
+        subtitle: "LTM",
+        calendar: "(May)2026 - Present",
+      },
+      {
+        title: "Junior Engineer - Intern",
+        subtitle: "Novas Arc Consulting Pvt. Ltd.",
+        calendar: "(August)2025 - (April)2026",
+      },
+      {
         title: "Intern",
         subtitle: "Daemonhive Technologies",
-        calendar: "(April)2025 - Present",
+        calendar: "(April)2025 - (August)2025",
       },
       {
         title: "MERN Stack Trainee",
-        subtitle: "GeeksforGeeks - Noida",
+        subtitle: "GeeksforGeeks",
         calendar: "(July)2024 - (Oct)2024",
       },
     ],

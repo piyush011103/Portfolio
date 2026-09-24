@@ -31,13 +31,13 @@ export const projectsData = [
         category: 'design',
         link: 'https://breeze-travel-v8d1.onrender.com/',
     },
-    {
-        id: 4,
-        image: Work4,
-        title:'The Cuisine Restaurant',
-        category: 'design',
-        link: 'https://piyush011103.github.io/food_website/',
-    },
+    // {
+    //     id: 4,
+    //     image: Work4,
+    //     title:'The Cuisine Restaurant',
+    //     category: 'design',
+    //     link: 'https://piyush011103.github.io/food_website/',
+    // },
     // {
     //     id: 4,
     //     image: Work4,
