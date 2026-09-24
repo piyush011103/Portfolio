@@ -35,17 +35,17 @@ const tabs = [
       {
         title: "B. Tech - CSE",
         subtitle: "Dr. APJ Abdul Kalam Technical University",
-        calendar: "(Sept)2021 - (May)2025",
+        calendar: " Sep 2021-May 2025",
       },
       {
         title: "12th - Science",
         subtitle: "Gandhi Nagar Public School",
-        calendar: "2020 - 2021",
+        calendar: " 2020-2021",
       },
       {
         title: "10th",
         subtitle: "Gandhi Nagar Public School",
-        calendar: "2018 - 2019",
+        calendar: " 2018-2019",
       },
     ],
   },

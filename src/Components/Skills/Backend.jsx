@@ -10,13 +10,15 @@ const skills = [
     { name: "Node.js", level: "82" },
     { name: "Express.js", level: "80" },
     { name: "MongoDB", level: "78" },
+    { name: "OAuth", level: "70" },
+    { name: "JWT", level: "70" },
   ],
 ];
 
 const Backend = () => {
   return (
     <div className="skills_content">
-      <h3 className="skills_title">Backend Technologies/Tools</h3>
+      <h3 className="skills_title">Backend Technologies</h3>
       <div className="skills_box">
         {skills.map((group, groupIdx) => (
           <div className="skills_group" key={groupIdx}>
